@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Página 2</title>
+        <meta charset="utf-8">
+        <script>
+            setTimeout(() =>{
+                var p = document.getElementById('paragrafo1')
+            p.style.color = "darkred"
+            p.style.fontWeight = "bold"
+            p.style.fontSize = "30px"
+            },1);
+           // se colocar o setTimeout ele vai entender que deve carregar a página pra depois voltar e carregar o script;
+        //se colocar esse script no head, não vai carregar, porque a variável p será nulo, porque não deu tempo de carregar ela;
+        // Não é uma boa prática fazer isso, o certo e fazer no "botton" ou num arquivo separado e puxar pelo src;
+        </script>
+    </head>
+<body>
+<p id = "paragrafo1">Esse é um parágrafo</p>
+<input type="text" id= "input-cor">
+
+<button type= "button" onclick="document.getElementById('paragrafo1').style.visibility = 'hidden'">
+    Esconder parágrafo</button>
+
+<button type= "button" onclick="document.getElementById('paragrafo1').style.visibility = 'visible'">
+    mostrar parágrafo</button>
+ <button type= "button" onclick="document.getElementById('paragrafo1').style.color = 'blue'">
+    Trocar cor para azul</button>
+
+<button type="button" onclick="trocarCor()">Trocar Cor</button>
+    
+<script>
+    function trocarCor() {
+     var cor = document.getElementById('input-cor').value;
+     document.getElementById('paragrafo1').style.color = cor;
+    }
+    
+
+</script>
+
+</body>
+    
+</html>

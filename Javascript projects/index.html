@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+<title>Título da Página</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="index.css">
+<script>
+    //alert("Hello world"); no head ativa o script antes da página ser carregada e no body é depois do carregamento;
+    console.log("Hello world")
+</script>
+
+<script src="index.js"></script>
+</head>
+<body>
+    <img width= "200" height= "100" src= https://cdn.oantagonista.net/cdn-cgi/image/fit=contain,width=1020,height=555,format=webp/uploads/2021/01/auxilio_emergencial_caixa_coronavoucher.jpg>
+    <h1 class="texto-header">Heading 1</h1>
+    <h2 id="texto2">Heading 2</h2>
+    <h3 class="borda">Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+<p class="borda paragrafo">esse é um paragrafo!</p>
+<br><br>
+<br>
+<p class= "paragrafo" id="Paragrafo2">esse é outro paragrafo</p>
+
+<a href="https://www.igti.com.br">Ir para site do igti</a>
+<br>
+
+<script>
+setTimeout(function(){
+    console.log("passou 2 segundos");
+
+}, 2000);
+setTimeout(function(){
+    console.log("passou 3 segundos");
+
+}, 3000);
+document.write("texto qualquer");
+
+</script>
+<br>
+<input type= "text">
+<br>
+<input type= "number">
+<br>
+<input type= "checkbox" id="carro1">
+<label for= "carro1">Uno</label>
+<input type= "checkbox" id="carro2">
+<label for= "carro2">Argo</label>
+<br>
+<input type="radio" id="masculino" value= "masculino" name= "sexo">
+<label for= "masculino">masculino</label>
+<br>
+<input type="radio" id="feminino" value= "feminino" name= "sexo">
+<label for= "feminino">feminino</label>
+<br>
+<input type="radio" id="outros" value= "outros" name= "sexo">
+<label for= "outros">outros</label>
+<br>
+<select>
+    <option value="uno">Uno</option>
+    <option value="gol">Gol</option>
+    <option value="palio">Palio</option>
+    <option value="argo"selected>Argo</option>
+</select>
+<br>
+<select multiple>
+    <option value="uno">Uno</option>
+    <option value="gol">Gol</option>
+    <option value="palio">Palio</option>
+    <option value="argo"selected>Argo</option>
+</select>
+<br>
+
+<textarea rows="5" cols=""20>
+Texto inicial</textarea>
+
+<br>
+
+<button type="button" onclick="clickBotao()">Clique aqui</button>
+<button type="button" onclick="clickBotao2()">Clique aqui2</button>
+
+<br>
+<br>
+
+<img id= "lampada" src="C:\IGTI\lampada-led-esquenta-lampada-incandescente-40w.jpg">
+<button type="button" onclick="ligarLampada()">Ligar Lampada</button>
+<button type="button" onclick="desligarLampada()">Desligar Lampada</button>
+
+
+<br>
+
+<button type= "button" onclick="adicionarElemento()">Adicionar Elemento</button>
+<button type= "button" onclick="removerElemento()">Remover Elemento</button>
+<div id="div-elementos">
+<br>
+
+</div>
+
+
+<script>
+    console.log("hello World no body");
+    
+
+</script>
+
+
+
+
+</body>
+
+</html>

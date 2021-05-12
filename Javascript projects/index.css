@@ -1,0 +1,23 @@
+.texto-header {
+    color: blue; background-color: aquamarine;
+}
+#texto2 {
+    color: red;
+}
+.borda {
+    border: solid #0b1a22 15px;
+    border-radius: 30px;
+   
+}
+#corPagina {
+    background-color: rgb(29, 37, 54);
+}
+
+.paragrafo {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-right: 33px;
+    padding: 10px
+}
+
+

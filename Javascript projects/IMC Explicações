@@ -1,0 +1,11 @@
+.class= é para utilizar como classe dentro do html;
+#class= é usado para id;  
+label for= para o leitor ler na tela para o usuário, para quem tiver deficiência visual;
+<div></div> serve para separar elementos;
+style= marginBotton serve para dar um espaço para baixo;
+parseint= converte números inteiros;
+parseFloat= converte números quebrados;
+var imc= peso / (altura * altura);  altura x altura = a altura ao quadrado;
+  <span> = estiliza só um pedaço do texto;   
+&& =significa "e" se a primeira e a segunda condição for pega;
+|| = significa "ou";
