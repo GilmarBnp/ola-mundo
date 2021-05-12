@@ -1,0 +1,4 @@
+1;Paulo Campos;Rua a; 32;BH;Casado
+2;Jose Silva; rua b; 64;Sp;Solteiro
+3;Maria Joana; rua c; 69;PB;Separado
+4;Carlinha Amaral; rua d; 72; AM;Viuvo
